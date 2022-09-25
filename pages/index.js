@@ -38,7 +38,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a front end developer based in Indonesia!
+        Hello, I&apos;m a software engineer based in Indonesia!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -100,11 +100,16 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Freelance full-stack Developer
+          Freelance Software Engineer
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Frontend Developer Intern at Direktorat Jenderal Pendidikan Tinggi
+          Riset dan Teknologi Kemdikbudristek
         </BioSection>
         <BioSection>
           <BioYear>2018-2022</BioYear>
-          Undergraduate, Informatics Engineering Students at Gunadarma
+          Bachelor of Engineering, Informatics Engineering at Gunadarma
           University
         </BioSection>
       </Section>
@@ -155,6 +160,17 @@ const Home = () => (
                 leftIcon={<Icon as={IoLogoTiktok} />}
               >
                 @raflyrdn
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.tiktok.com/@masrafcode" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoTiktok} />}
+              >
+                @masrafcode
               </Button>
             </Link>
           </ListItem>
