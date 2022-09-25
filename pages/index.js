@@ -18,9 +18,14 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub,IoLogoTiktok } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoTiktok
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/masraf.png'
-import thumbMusicYoutube from '../public/images/links/masrafmusic.png'
+import thumbCodingYoutube from '../public/images/links/raflicoding.png'
 
 const Home = () => (
   <Layout>
@@ -67,10 +72,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hello, I am an Software Engineer based in Indonesia
-          focused on front end development that creates high
-          performance applications and neat architecture. I am also experienced
-          in product design and client relations.
+          Hello, I am a Software Engineer based in Indonesia focused on front
+          end development which creates high performance applications and clean
+          architecture. I am also experienced in product design and client
+          relations.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -99,7 +104,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018-2022</BioYear>
-          Undergraduate, Informatics Engineering Students at Gunadarma University
+          Undergraduate, Informatics Engineering Students at Gunadarma
+          University
         </BioSection>
       </Section>
 
@@ -165,9 +171,9 @@ const Home = () => (
           <GridItem
             href="https://www.youtube.com/rafliramadhan"
             title="Rafli Ramadhan"
-            thumbnail={thumbMusicYoutube}
+            thumbnail={thumbCodingYoutube}
           >
-            Music Youtube Channel
+            Coding Youtube Channel
           </GridItem>
         </SimpleGrid>
       </Section>
