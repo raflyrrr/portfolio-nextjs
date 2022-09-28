@@ -11,10 +11,10 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="skyoh">
+  <Layout title="fiew">
     <Container>
       <Title>
-        Sky.oh <Badge>2021</Badge>
+        Fiew <Badge>2021</Badge>
       </Title>
       <P>
         A group chatting web application using chatengine.io for CMS and token
@@ -23,8 +23,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://skyoh.netlify.app/">
-            https://www.skyoh.netlify.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://fiewchat.netlify.app/">
+          https://fiewchat.netlify.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -37,8 +37,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/skyoh.png" alt="skyoh" />
-      <WorkImage src="/images/works/skyoh2.png" alt="skyoh" />
+      <WorkImage src="/images/works/fiew.png" alt="fiew" />
+      <WorkImage src="/images/works/fiew2.png" alt="fiew" />
     </Container>
   </Layout>
 )

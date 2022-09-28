@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbCovices from '../public/images/works/covices.png'
-import thumbSkyoh from '../public/images/works/skyoh.png'
+import thumbFiew from '../public/images/works/fiew.png'
 import thumbFienews from '../public/images/works/fienews.png'
-import thumbNabungyuk from '../public/images/works/nabungyuk.png'
+import thumbSatuDikti from '../public/images/works/satudikti.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -17,7 +17,7 @@ const Works = () => (
         See all my works on <Link href="https://github.com/raflyrrr">Github
         </Link>
       </Text>
-      
+
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
@@ -26,7 +26,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="skyoh" title="Sky.oh" thumbnail={thumbSkyoh}>
+          <WorkGridItem id="fiewchat" title="Fiew" thumbnail={thumbFiew}>
             A group chatting web application
           </WorkGridItem>
         </Section>
@@ -37,8 +37,8 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="nabungyuk" thumbnail={thumbNabungyuk} title="NabungYuk">
-          An application that can manage monthly finances about income and expenses
+          <WorkGridItem id="satudikti" title="SatuDikti" thumbnail={thumbSatuDikti}>
+            A Directorate General of Higher Education Research and Technology super-app application
           </WorkGridItem>
         </Section>
       </SimpleGrid>

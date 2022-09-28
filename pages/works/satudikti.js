@@ -5,17 +5,17 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Covices">
+  <Layout title="SatuDikti">
     <Container>
       <Title>
-        Covices <Badge>2021</Badge>
+        SatuDikti <Badge>2022</Badge>
       </Title>
-      <P>A global COVID-19 statistic application consumed kawalcorona API and many corona statistic API from github</P>
+      <P>A web application to support government professional services activity</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://covices.netlify.app/">
-          https://www.covices.netlify.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://satudikti.id/">
+          https://www.satudikti.id/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -24,12 +24,14 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.js, React, Axios, Chart JS, Datatables, Netlify</span>
+          <span>Next JS, Tailwind, Axios, Nookies, Radium, Moment</span>
         </ListItem> 
       </List>
 
-      <WorkImage src="/images/works/covices.png" alt="Covices" />
-      <WorkImage src="/images/works/covices2.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/satudikti2.png" alt="SatuDikti" />
+      <WorkImage src="/images/works/satudikti3.png" alt="SatuDikti" />
+      <WorkImage src="/images/works/satudikti4.png" alt="SatuDikti" />
+      <WorkImage src="/images/works/satudikti5.png" alt="SatuDikti" />
     </Container>
   </Layout>
 )
