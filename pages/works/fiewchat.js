@@ -33,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.js, React, chatengine.io, Netlify</span>
+          <span>React JS, chatengine.io, Netlify</span>
         </ListItem>
       </List>
 

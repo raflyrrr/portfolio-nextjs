@@ -26,7 +26,7 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Node.js, React Native, native-base, react-native-webview, Moment Js
+            React Native, native-base, react-native-webview, Moment Js
           </span>
         </ListItem>
         <ListItem>
