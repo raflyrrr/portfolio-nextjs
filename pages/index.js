@@ -99,10 +99,6 @@ const Home = () => (
           Completed the Senior High School at SMAN 43 Jakarta
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          Freelance Software Engineer
-        </BioSection>
-        <BioSection>
           <BioYear>2022</BioYear>
           Frontend Developer Intern at Direktorat Jenderal Pendidikan Tinggi
           Riset dan Teknologi Kemdikbudristek
@@ -111,6 +107,10 @@ const Home = () => (
           <BioYear>2018-2022</BioYear>
           Bachelor of Engineering, Informatics Engineering at Gunadarma
           University
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 - Now</BioYear>
+          Frontend Developer at Fresh Factory (YC W22)
         </BioSection>
       </Section>
 
