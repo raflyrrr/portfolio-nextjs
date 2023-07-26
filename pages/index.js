@@ -19,7 +19,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoTiktok,
