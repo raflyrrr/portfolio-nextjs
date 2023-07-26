@@ -22,7 +22,8 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoTiktok
+  IoLogoTiktok,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/masraf.png'
 import thumbCodingYoutube from '../public/images/links/raflicoding.png'
@@ -119,6 +120,17 @@ const Home = () => (
           On the web
         </Heading>
         <List>
+        <ListItem>
+            <Link href="https://github.com/raflyrrr" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                Rafli Ramadhan
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://github.com/raflyrrr" target="_blank">
               <Button
@@ -130,7 +142,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/raflyrdnn" target="_blank">
               <Button
                 variant="ghost"
@@ -140,7 +152,7 @@ const Home = () => (
                 @raflyrdnn
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Link href="https://instagram.com/raflyrdn" target="_blank">
               <Button
