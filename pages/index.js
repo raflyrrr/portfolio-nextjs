@@ -120,7 +120,7 @@ const Home = () => (
         </Heading>
         <List>
         <ListItem>
-            <Link href="https://github.com/raflyrrr" target="_blank">
+            <Link href="https://www.linkedin.com/in/raflyrdn/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
