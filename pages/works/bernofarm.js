@@ -1,7 +1,8 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, Link } from '@chakra-ui/react'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Work = () => (
   <Layout title="Bernofarm (CekTokoObat)">
@@ -13,9 +14,18 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          {/* <Link href="https://freezyfresh.com/">
-          https://www.freezyfresh.com/ <ExternalLinkIcon mx="2px" />
-          </Link> */}
+          <ul>
+            <li>
+              <Link href="https://cektokoobat.com/">
+                https://cektokoobat.com/ <ExternalLinkIcon mx="2px" />
+              </Link>
+            </li>
+            <li>
+              <Link href="https://webadmin.cektokoobat.com/">
+                https://webadmin.cektokoobat.com/ <ExternalLinkIcon mx="2px" />
+              </Link>
+            </li>
+          </ul>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
@@ -24,12 +34,11 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>React JS, Antd, Tailwind CSS, Redux, Axios</span>
-        </ListItem> 
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/bernofarm1.png" alt="bernofarm" />
       <WorkImage src="/images/works/bernofarm2.png" alt="bernofarm" />
-
     </Container>
   </Layout>
 )

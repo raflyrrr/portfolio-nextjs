@@ -72,11 +72,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hello, I am a Software Engineer based in Indonesia focused on front
-          end development which creates high performance applications and clean
-          architecture. I am also experienced in product design and client
-          relations.
-        </Paragraph>
+        Hello!, Im a Technology-driven Software Engineer with 2+ years combined internship and professional experience in translating business requirements and functional specification into code modules and software solutions. Engages in the software development lifecycle to support the development, configuration, modification, and testing. Experienced and skilled in developing front-end, modern frameworks utilizing React+Redux / Next etc.        </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">

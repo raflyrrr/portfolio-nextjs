@@ -8,7 +8,8 @@ import thumbFienews from '../public/images/works/fienews.png'
 import thumbSatuDikti from '../public/images/works/satudikti.png'
 import thumbFreezyFreshWeb from '../public/images/works/freezyweb1.png'
 import thumbFreezyFreshMobile from '../public/images/works/freezymobile1.png'
-import thumbBernofarm from '../public/images/works/bernofarm1.png'
+import thumbBernofarm from '../public/images/works/bernofarm2.png'
+import thumbYasaons from '../public/images/works/yasaons1.png'
 
 
 const Works = () => (
@@ -45,7 +46,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="freezyweb" title="Freezy Fresh (Web)" thumbnail={thumbFreezyFreshWeb}>
-            Pay Less For Fresh
+            An e-groceries online shopping platform for food and beverage products
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -55,7 +56,12 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="freezymobile" title="Freezy Fresh (Android & iOS)" thumbnail={thumbFreezyFreshMobile}>
-            Pay Less For Fresh
+            An e-groceries online shopping platform for food and beverage products
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="yasaons" title="YASAONS (BULOG)" thumbnail={thumbYasaons}>
+            A Logistic Company management services for distributing rice from BULOG
           </WorkGridItem>
         </Section>
       </SimpleGrid>
