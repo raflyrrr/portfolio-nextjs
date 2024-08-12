@@ -19,10 +19,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoTiktok
+  IoLogoTiktok,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/masraf.png'
 import thumbCodingYoutube from '../public/images/links/raflicoding.png'
@@ -72,11 +72,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hello, I am a Software Engineer based in Indonesia focused on front
-          end development which creates high performance applications and clean
-          architecture. I am also experienced in product design and client
-          relations.
-        </Paragraph>
+        Hello!, Im a Technology-driven Software Engineer with 2+ years combined internship and professional experience in translating business requirements and functional specification into code modules and software solutions. Engages in the software development lifecycle to support the development, configuration, modification, and testing. Experienced and skilled in developing front-end, modern frameworks utilizing React+Redux / Next etc.        </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -123,6 +119,17 @@ const Home = () => (
           On the web
         </Heading>
         <List>
+        <ListItem>
+            <Link href="https://www.linkedin.com/in/raflyrdn/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoLogoLinkedin} />}
+              >
+                Rafli Ramadhan
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://github.com/raflyrrr" target="_blank">
               <Button
@@ -134,7 +141,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/raflyrdnn" target="_blank">
               <Button
                 variant="ghost"
@@ -144,7 +151,7 @@ const Home = () => (
                 @raflyrdnn
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Link href="https://instagram.com/raflyrdn" target="_blank">
               <Button
