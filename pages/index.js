@@ -109,8 +109,12 @@ const Home = () => (
           University
         </BioSection>
         <BioSection>
-          <BioYear>2022 - Now</BioYear>
+          <BioYear>2022 - 2024</BioYear>
           Frontend Developer at Fresh Factory (YC W22)
+        </BioSection>
+        <BioSection>
+          <BioYear>2024 - now</BioYear>
+          Frontend Developer at vokal.ai
         </BioSection>
       </Section>
 
