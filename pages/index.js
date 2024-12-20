@@ -72,7 +72,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Hello!, Im a Technology-driven Software Engineer with 2+ years combined internship and professional experience in translating business requirements and functional specification into code modules and software solutions. Engages in the software development lifecycle to support the development, configuration, modification, and testing. Experienced and skilled in developing front-end, modern frameworks utilizing React+Redux / Next etc.        </Paragraph>
+          Hello!, Im a Technology-driven Software Engineer with 2+ years
+          combined internship and professional experience in translating
+          business requirements and functional specification into code modules
+          and software solutions. Engages in the software development lifecycle
+          to support the development, configuration, modification, and testing.
+          Experienced and skilled in developing front-end, modern frameworks
+          utilizing React+Redux / Next etc.{' '}
+        </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -119,7 +126,7 @@ const Home = () => (
           On the web
         </Heading>
         <List>
-        <ListItem>
+          <ListItem>
             <Link href="https://www.linkedin.com/in/raflyrdn/" target="_blank">
               <Button
                 variant="ghost"
@@ -163,7 +170,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://www.tiktok.com/@raflyrdn" target="_blank">
               <Button
                 variant="ghost"
@@ -173,7 +180,7 @@ const Home = () => (
                 @raflyrdn
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Link href="https://www.tiktok.com/@masrafcode" target="_blank">
               <Button

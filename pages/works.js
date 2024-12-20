@@ -1,4 +1,11 @@
-import { Container, Heading, SimpleGrid, Divider,Text,Link } from '@chakra-ui/react'
+import {
+  Container,
+  Heading,
+  SimpleGrid,
+  Divider,
+  Text,
+  Link
+} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -10,7 +17,7 @@ import thumbFreezyFreshWeb from '../public/images/works/freezyweb1.png'
 import thumbFreezyFreshMobile from '../public/images/works/freezymobile1.png'
 import thumbBernofarm from '../public/images/works/bernofarm2.png'
 import thumbYasaons from '../public/images/works/yasaons1.png'
-
+import thumbNgajiAI from '../public/images/works/ngajiai1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -19,8 +26,8 @@ const Works = () => (
         Some works
       </Heading>
       <Text fontSize={15} mb={4} fontWeight={400}>
-        See all my works on <Link href="https://github.com/raflyrrr">Github
-        </Link>
+        See all my works on{' '}
+        <Link href="https://github.com/raflyrrr">Github</Link>
       </Text>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
@@ -40,28 +47,58 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="satudikti" title="SatuDikti" thumbnail={thumbSatuDikti}>
-            A Directorate General of Higher Education Research and Technology super-app application
+          <WorkGridItem
+            id="satudikti"
+            title="SatuDikti"
+            thumbnail={thumbSatuDikti}
+          >
+            A Directorate General of Higher Education Research and Technology
+            super-app application
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="freezyweb" title="Freezy Fresh (Web)" thumbnail={thumbFreezyFreshWeb}>
-            An e-groceries online shopping platform for food and beverage products
+          <WorkGridItem
+            id="freezyweb"
+            title="Freezy Fresh (Web)"
+            thumbnail={thumbFreezyFreshWeb}
+          >
+            An e-groceries online shopping platform for food and beverage
+            products
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="bernofarm" title="Bernofarm (CekTokoObat)" thumbnail={thumbBernofarm}>
+          <WorkGridItem
+            id="bernofarm"
+            title="Bernofarm (CekTokoObat)"
+            thumbnail={thumbBernofarm}
+          >
             A Pharmaceutical Company
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="freezymobile" title="Freezy Fresh (Android & iOS)" thumbnail={thumbFreezyFreshMobile}>
-            An e-groceries online shopping platform for food and beverage products
+          <WorkGridItem
+            id="freezymobile"
+            title="Freezy Fresh (Android & iOS)"
+            thumbnail={thumbFreezyFreshMobile}
+          >
+            An e-groceries online shopping platform for food and beverage
+            products
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="yasaons" title="YASAONS (BULOG)" thumbnail={thumbYasaons}>
-            A Logistic Company management services for distributing rice from BULOG
+          <WorkGridItem
+            id="yasaons"
+            title="YASAONS (BULOG)"
+            thumbnail={thumbYasaons}
+          >
+            A Logistic Company management services for distributing rice from
+            BULOG
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="ngajiai" title="ngaji.ai" thumbnail={thumbNgajiAI}>
+            An AI-based platform for managing Quran recitation learning and
+            feedback.{' '}
           </WorkGridItem>
         </Section>
       </SimpleGrid>
