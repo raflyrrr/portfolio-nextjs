@@ -49,7 +49,7 @@ const Work = () => (
           <strong>AI Feedback Monitoring:</strong>
           <ul>
             <li>
-              Track the AI's performance in recognizing and correcting users'
+              Track the AI performance in recognizing and correcting users
               recitations.
             </li>
             <li>
